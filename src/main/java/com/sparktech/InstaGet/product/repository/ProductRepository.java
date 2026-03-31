@@ -1,6 +1,6 @@
-package com.sparktech.InstaGet.Repository;
+package com.sparktech.InstaGet.product.repository;
 
-import com.sparktech.InstaGet.Models.Product;
+import com.sparktech.InstaGet.product.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
-package com.sparktech.InstaGet.dtos;
+package com.sparktech.InstaGet.product.dto;
 
-import com.sparktech.InstaGet.Models.Product;
+import com.sparktech.InstaGet.product.entity.Product;
 
 public class ProductDto {
 

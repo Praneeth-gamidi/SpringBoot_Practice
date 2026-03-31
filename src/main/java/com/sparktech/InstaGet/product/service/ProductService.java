@@ -1,8 +1,8 @@
-package com.sparktech.InstaGet.services;
+package com.sparktech.InstaGet.product.service;
 
-import com.sparktech.InstaGet.Repository.ProductRepository;
-import com.sparktech.InstaGet.Models.Product;
-import com.sparktech.InstaGet.dtos.ProductDto;
+import com.sparktech.InstaGet.product.dto.ProductDto;
+import com.sparktech.InstaGet.product.entity.Product;
+import com.sparktech.InstaGet.product.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

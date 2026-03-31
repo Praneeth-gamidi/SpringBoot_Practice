@@ -1,7 +1,8 @@
-package com.sparktech.InstaGet.controllers;
+package com.sparktech.InstaGet.product.controller;
 
-import com.sparktech.InstaGet.dtos.ProductDto;
-import com.sparktech.InstaGet.services.ProductService;
+import com.sparktech.InstaGet.product.dto.ProductDto;
+import com.sparktech.InstaGet.product.service.ProductService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,11 +13,8 @@ import java.util.List;
 @RequestMapping("/api/products")
 public class ProductController {
 
+    @Autowired
     private ProductService productService;
-
-    public ProductController(ProductService productService) {
-        this.productService = productService;
-    }
 
     @GetMapping
     public List<ProductDto> getAll() {

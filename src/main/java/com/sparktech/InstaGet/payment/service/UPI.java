@@ -1,4 +1,4 @@
-package com.sparktech.InstaGet.services;
+package com.sparktech.InstaGet.payment.service;
 
 public class UPI implements PaymentService {
 

@@ -1,8 +1,8 @@
 package com.sparktech.InstaGet.controllers;
 
-import com.sparktech.InstaGet.dtos.ProductDto;
+import com.sparktech.InstaGet.product.dto.ProductDto;
+import com.sparktech.InstaGet.product.service.ProductService;
 import com.sparktech.InstaGet.services.AiService;
-import com.sparktech.InstaGet.services.ProductService;
 import com.sparktech.InstaGet.services.ResponseGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

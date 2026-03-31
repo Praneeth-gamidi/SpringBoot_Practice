@@ -1,15 +1,15 @@
-package com.sparktech.InstaGet;
+package com.sparktech.InstaGet.payment.config;
 
-import com.sparktech.InstaGet.services.Card;
-import com.sparktech.InstaGet.services.NetBanking;
-import com.sparktech.InstaGet.services.PaymentService;
-import com.sparktech.InstaGet.services.UPI;
+import com.sparktech.InstaGet.payment.service.Card;
+import com.sparktech.InstaGet.payment.service.NetBanking;
+import com.sparktech.InstaGet.payment.service.PaymentService;
+import com.sparktech.InstaGet.payment.service.UPI;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
-public class AppConfig {
+public class PaymentConfig {
 
     @Bean
     @Primary

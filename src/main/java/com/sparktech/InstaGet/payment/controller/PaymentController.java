@@ -1,7 +1,7 @@
-package com.sparktech.InstaGet.controllers;
+package com.sparktech.InstaGet.payment.controller;
 
-import com.sparktech.InstaGet.services.PaymentManager;
-import com.sparktech.InstaGet.services.PaymentService;
+import com.sparktech.InstaGet.payment.service.PaymentManager;
+import com.sparktech.InstaGet.payment.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
