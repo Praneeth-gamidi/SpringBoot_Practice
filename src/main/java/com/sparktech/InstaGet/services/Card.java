@@ -1,9 +1,7 @@
 package com.sparktech.InstaGet.services;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
 
-@Service("card")
 public class Card implements PaymentService {
 
     @Value("${card.name:HDFC Card}")

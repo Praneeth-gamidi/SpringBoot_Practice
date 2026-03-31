@@ -1,8 +1,5 @@
 package com.sparktech.InstaGet.services;
 
-import org.springframework.stereotype.Service;
-
-@Service("netBanking")
 public class NetBanking implements PaymentService {
 
     @Override
